@@ -22,6 +22,9 @@
 	overflow: hidden;
 	position: relative;
 	width: 289px;
+  /*  border: 2px solid #F8F8F8;
+    outline-style: solid;
+    outline-color: #E0E0E0; */
 }
 
 .photo-grid li:hover figcaption {
@@ -40,7 +43,7 @@
 .photo-grid li:hover img {
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 
 
