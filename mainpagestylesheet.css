@@ -78,3 +78,55 @@
 	transition-delay: 100ms;
 	z-index: 100;
 }
+
+#WhoIAm {
+/*  background: #F0F0F0; */
+  padding-top: 25px;
+}
+
+#Experience {
+  padding-top: 1em;
+}
+
+#Exphr {
+  width: 25%;
+  height: 0.075em;
+  background-color: #F0F0F0;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #A0A0A0;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+.EmploymentImage {
+  float: right;
+  vertical-align: top;
+  border-radius: 10%;
+}
+
+.navbar {
+  border: 0;
+  background: red; /* For browsers that do not support gradients */
+  background: linear-gradient(#303030 , #404040); /* Standard syntax */
+}
+
+.navbar a{
+    color: lightgrey !important;
+}
+
+.navbar a:hover {
+  color: white !important;
+}
+
+.navbar-nav li a:hover {
+    color: white !important;
+}
